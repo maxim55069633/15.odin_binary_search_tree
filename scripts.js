@@ -200,6 +200,7 @@ class Tree {
   inorder(func = 0, current_root = this.root) {
     if (this.root == null) {
       console.log("This tree is empty");
+      return;
     }
     if (func != 0) {
       if (current_root == null) {
